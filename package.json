@@ -1,7 +1,7 @@
 {
-  "name": "y",
+  "name": "tiaozao",
   "version": "1.0.0",
-  "description": "y",
+  "description": "tiaozao 学习 nuxt 网站",
   "author": "tiaozao <tiaozao@meizhuahuyu.com>",
   "private": true,
   "scripts": {
@@ -13,6 +13,8 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "element-ui": "^2.13.1",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
@@ -20,6 +22,7 @@
     "eslint": "^4.19.1",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.1.1",
-    "eslint-plugin-vue": "^4.0.0"
+    "eslint-plugin-vue": "^4.0.0",
+    "js-md5": "^0.7.3"
   }
 }
